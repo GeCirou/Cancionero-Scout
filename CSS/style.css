@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --primaryColor: #622599;
+    --secondaryColor: rgb(5, 182, 93);
+    --tertiaryColor: ivory;
+    --containerCancion: #ffffb1;
+    --containerDanza: #89ff89;
+    --containerAplauso: #bcdfeb; 
+}
+html {
+    font-size: 62.5%;
+}
+/* HEADER */
+header {
+    font-size: 2rem;
+    background-color: var(--primaryColor);
+    color: var(--tertiaryColor);
+}
+header h1 {
+    padding: 1rem;
+    font-size: 4rem;
+    text-align: center;
+}
+header p {
+    padding: 1rem;
+    line-height: 2.5rem;
+}
+nav {
+    padding: 1rem .5rem;
+    font-size: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    text-align: center;
+}
+nav a {
+    color: var(--tertiaryColor);
+}
+/* MAIN */
+main {
+    background-color: var(--tertiaryColor);
+}
+main h2 {
+    margin: 2rem auto;
+    padding: 1rem;
+    font-size: 5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* CONTAINERS */
+.main-container__canciones,
+.main-container__danzas,
+.main-container__aplausos {
+    display: grid;
+    grid-template-columns: 32rem;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+.container-cancion,
+.container-danza,
+.container-aplauso {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 29rem;
+    font-size: 1.8rem;
+    border: 3px solid var(--primaryColor);
+    border-radius: 10px;
+    justify-content: center;
+    align-content: start;
+}
+.container-cancion {
+    background-color: var(--containerCancion);
+}
+.container-cancion h2,
+.container-danza h2,
+.container-aplauso h2 {
+    font-size: 3rem;
+    margin: 1rem 0;
+    justify-self: center;
+}
+.container-cancion p {
+    margin: 1rem 4rem;
+}
+.container-cancion iframe,
+.container-danza iframe,
+.container-aplauso iframe {
+    margin: 2rem 0;
+    justify-self: center;
+}
+.container-danza {
+    background-color: var(--containerDanza);
+}
+.container-aplauso {
+    background-color: var(--containerAplauso);
+}

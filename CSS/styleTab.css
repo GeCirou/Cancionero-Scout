@@ -1,0 +1,18 @@
+header {
+    padding-bottom: 1rem;
+}
+header h1 {
+    font-size: 5rem;
+}
+header p {
+    text-align: center;
+}
+header nav {
+    font-size: 3rem;
+}
+
+.main-container__canciones,
+.main-container__danzas,
+.main-container__aplausos {
+    grid-template-columns: 32rem 32rem;
+}
