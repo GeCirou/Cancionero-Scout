@@ -92,6 +92,10 @@ main h2 {
 }
 .container-danza {
     background-color: var(--containerDanza);
+
+}
+.container-danza p {
+    padding: 1rem;
 }
 .container-aplauso {
     background-color: var(--containerAplauso);
