@@ -100,3 +100,23 @@ main h2 {
 .container-aplauso {
     background-color: var(--containerAplauso);
 }
+.boton-volver {
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    background-color: var(--primaryColor);
+    color: var(--tertiaryColor);
+    border: var(--primaryColor) 2px solid;
+    border-radius: 1rem;
+}
+footer {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    display: grid;
+    background-color: var(--primaryColor);
+    color: var(--tertiaryColor);
+    font-size: 2rem;
+}
+footer p {
+    justify-self: center;
+}
