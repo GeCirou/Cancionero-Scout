@@ -140,5 +140,13 @@ footer {
     font-size: 2rem;
 }
 footer p {
+    margin-top: 2rem;
     justify-self: center;
+}
+footer a {
+    margin-top: 1rem;
+    color: var(--tertiaryColor);
+}
+footer a:hover {
+    color: var(--containerCancion);
 }
