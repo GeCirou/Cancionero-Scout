@@ -5,7 +5,35 @@
     <meta name="robots" content="index, follow">
     <meta name="description" content="Es un cancionero con danzas para consulta de scouts.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cancionero Scout</title>
+
+    <link rel="stylesheet" href="./CSS/pdcc.min.css">
+    <script charset="utf-8" src="./JS/pdcc.min.js"></script>
+    <script type="text/javascript">
+    PDCookieConsent.config({
+        "defaultLang" : "es",
+        "brand": {
+            "dev" : false,
+            "name": "Cancionero Scout",
+            "url" : "https://localhost",
+            "websiteOwner" : "Ge Cirou"
+        },
+        "cookiePolicyLink": "http://localhost/cookies.php",
+        "hideModalIn": ["http://localhost/cookies.php"],
+        "styles": {
+            "primaryButton": {
+                "bgColor" : "#622599",
+                "txtColor": "ivory"
+            },
+            "secondaryButton": {
+                "bgColor" : "rgb(5, 182, 93)",
+                "txtColor": "ivory"
+            }
+        }
+    });
+    </script>
+
+
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/styleTab.css" media="screen and (min-width: 700px)">
     <link rel="stylesheet" href="./CSS/styleDesk.css" media="screen and (min-width: 1000px)">
@@ -66,8 +94,10 @@
                     Has de ser<br>
                     cada dia mejor
                 </p>
-                <iframe src="https://www.youtube.com/embed/IYka63Bq2YI?si=erYU4lBwGtrHyPb5" title="YouTube video player" allowfullscreen>
-                </iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/IYka63Bq2YI?si=kalw5GUb4iSOLEB5">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-cancion">
                 <h2>Buscar en la manada</h2>
@@ -131,8 +161,10 @@
                     Siempre lo mejor,<br>
                     Siempre lo mejor.
                 </p>
-                <iframe src="https://www.youtube.com/embed/64bj9o4__rI?si=VJPicfDzbXmqJ5bJ" title="YouTube video player" allowfullscreen>
-                </iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/64bj9o4__rI?si=9HiPXAGYjC7yv_Zo">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-cancion">
                 <h2>Te vas de la manada</h2>
@@ -154,8 +186,10 @@
                     Que tengas buena caza<br>
                     Adiós, hermano adiós.
                 </p>
-                <iframe src="https://www.youtube.com/embed/rT_vzlV4EHg?si=Ba1KwpmyVEA6p0yy" title="YouTube video player" allowfullscreen>
-                </iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/rT_vzlV4EHg?si=a4C3t4Pr1MZH1XAO">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-cancion">
                 <h2>Silbando llega nuestra amiga</h2>
@@ -320,7 +354,10 @@
                     Tu rastro va junto a mi rastro<br>
                     Mi caza es para ti.
                 </p>
-                <iframe src="https://www.youtube.com/embed/zEgbJ6B4hlc?si=-85qWEKHVuTXl_9T" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/zEgbJ6B4hlc?si=VYA4XDa3EsyfdCjE">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-cancion">
                 <h2>Mowgli rana</h2>
@@ -360,7 +397,10 @@
                     Y ha aprendido a no hacer caso<br>
                     De los monos Bandar-log
                 </p>
-                <iframe src="https://www.youtube.com/embed/FsgCCXzRMtI?si=8NuPeldsGhIhNbAq" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/FsgCCXzRMtI?si=Tkv7P3_4pnrEyvbF">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-cancion">
                 <h2>Cuando se ven lobos marchar</h2>
@@ -385,7 +425,10 @@
                     Oh, cuantos son y que gritos dan!<br>
                     Cuando se los ve marchar.
                 </p>
-                <iframe src="https://www.youtube.com/embed/UNFTEVy1AVo?si=pcqvOyJKh6w5TodF" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/UNFTEVy1AVo?si=FVpdjhbxuLLK9xMk">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-cancion">
                 <h2>Chino mandarín</h2>
@@ -399,7 +442,10 @@
                     Oye china yo no quiero discutir tir tir<br>
                     soy el chino capuchino mandarín rin rin
                 </p>
-                <iframe src="https://www.youtube.com/embed/IbM7MGjdwzE?si=4_KXXxalrky58HoO" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/IbM7MGjdwzE?si=CnOJvF1HWTisQlEc">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-cancion">
                 <h2>Seré, seré</h2>
@@ -871,7 +917,10 @@
                     solo los halcones sobre nuestra frente<br>
                     giran majestuosos sobre el cielo azul.
                 </p>
-                <iframe src="https://www.youtube.com/embed/jPGo_8yPN8A?si=IKBmQ2BXQI2NyWnF" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/jPGo_8yPN8A?si=_6yBm6vJN6uMJspk">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-cancion">
                 <h2>Yo soy scout</h2>
@@ -929,7 +978,10 @@
                     Que es de un Scout<br>
                     de corazón.
                 </p>
-                <iframe src="https://www.youtube.com/embed/Y9wysNEiE68?si=QotFyVrSlbjJll0s" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/Y9wysNEiE68?si=Pgk57F2isrkyZZoo">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-cancion">
                 <h2>Flor de Lis</h2>
@@ -949,7 +1001,10 @@
                     tan hermosos emblema<br>
                     que a todos unió, que a todos unió.
                 </p>
-                <iframe src="https://www.youtube.com/embed/o__PG3JkN5s?si=8wPKiWwdsXtOP144" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/o__PG3JkN5s?si=-mRIC37KcQhdUeNY">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-cancion">
                 <h2>Con las manos enlazadas</h2>
@@ -1058,7 +1113,39 @@
                     Vuelvo a Gillwell, volveré<br>
                     volvere a hacer mi curso otra vez
                 </p>
-                <iframe src="https://www.youtube.com/embed/FG7bn562Qnk?si=GPdTM2oLMw7wgQdu" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/FG7bn562Qnk?si=T-pSHaAFXp_3-QFn">Ver en YouTube</a>
+                </div>
+            </div>
+            <div class="container-cancion">
+                <h2>Fli Flai</h2>
+                <p>
+                    Fli <br>
+                    Fli Flai <br>
+                    Fli Flai Flu <br>
+                    Vista <br>
+                </p>
+                <p>
+                    Tumbalala tumbalala tumbalala vista <br>
+                    Tumbalala tumbalala tumbalala vista <br>
+                </p>
+                <p>
+                    No no no no vista <br>
+                    No no no no vista <br>
+                </p>
+                <p>
+                    Mini mini desta mini mini mini auá <br>
+                    Mini mini desta mini mini mini auá <br>
+                </p>
+                <p>
+                    No no no chiuáua <br>
+                    No no no chiuáua <br>
+                </p>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/uwK3ddnb8mE?si=EWOuCoCQ2t6WqUhE">Ver en YouTube</a>
+                </div>
             </div>
             <a class="boton-volver" href="#inicio">Inicio</a>
         </section>
@@ -1079,75 +1166,135 @@
                     la ra la la,<br>
                     ayúdame, hey!
                 </p>
-                <p><a href="https://www.youtube.com/shorts/Yweoxyv-hNA">Video de la dinámica</a></p>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://www.youtube.com/shorts/Yweoxyv-hNA">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>8 monitos</h2>
-                <iframe src="https://www.youtube.com/embed/jwGKIhaOzYw?si=jGO0rc5peqbMZkGZ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/jwGKIhaOzYw?si=OIUr5E2JAZ99F2VQ">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Tallarin</h2>
-                <iframe src="https://www.youtube.com/embed/759lVF0A9Go?si=0SpM6cMDF3cduyGY" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/759lVF0A9Go?si=qubTUrSp4-LPMR2J">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Mi mamá me mima</h2>
-                <iframe src="https://www.youtube.com/embed/vPxPB8Kg4-M?si=1pDdBXt8crVE71Mp" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/vPxPB8Kg4-M?si=pxV3YYxhn1Dm71Zd">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Pampa y cielo</h2>
-                <iframe src="https://www.youtube.com/embed/R53kvBlEzxA?si=zDsML2r7OGT__lF6" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/R53kvBlEzxA?si=a9klmOPG6eMAYDaf">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Oh dios Tulú</h2>
-                <iframe src="https://www.youtube.com/embed/ZRiQiNrx-Ks?si=fQNqTOn7BB9o58g3" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/ZRiQiNrx-Ks?si=bzewkHwQkBauwTpa">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Oh King Kong</h2>
-                <iframe src="https://www.youtube.com/embed/walF3mbDExU?si=B-j3h0YRbgrOzLAW" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/walF3mbDExU?si=zCSmTS1XBrrC3OSh">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Yo tengo un tic tic tic</h2>
-                <iframe src="https://www.youtube.com/embed/OBxQvhxY8LY?si=MRrFZsHR9_gp4ZmN" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/OBxQvhxY8LY?si=dhXHK9nQPfCHaNrA">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>El chipi chipi</h2>
-                <iframe src="https://www.youtube.com/embed/0jhQjV4n1Dk?si=2XCNhb6Se_Mb0q8a" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/0jhQjV4n1Dk?si=f51134op1LlT8W9y">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Wantanchu</h2>
-                <iframe src="https://www.youtube.com/embed/nVM2wYf1Q88?si=8jz72Hic3-CGJMjm" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/nVM2wYf1Q88?si=0phAo2QMl6j2Ab1C">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Un egipcio</h2>
-                <iframe src="https://www.youtube.com/embed/KeTmz2Iq83Y?si=qm_uUuBIxYlmyhV4" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/KeTmz2Iq83Y?si=IOyBiYb_YVcvJ4AO">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Cuando un scout baila</h2>
-                <iframe src="https://www.youtube.com/embed/QjWAKu0zUus?si=W6xjFfZidAfTe_0E" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/QjWAKu0zUus?si=6_RJQMTGpHA-0T3F">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Merequete</h2>
-                <iframe src="https://www.youtube.com/embed/Fh14uGuVlDM?si=ZBmmEdnfZ2d7uUSi" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/Fh14uGuVlDM?si=nNImbQFe3ojBRz-h">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Fui al mercado (la hormiguita)</h2>
-                <iframe src="https://www.youtube.com/embed/iFspN0ARySc?si=o5iF8MXG6E-fn6la" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/iFspN0ARySc?si=gk0upRZpQKe5NmRC">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Akatanga</h2>
-                <iframe src="https://www.youtube.com/embed/r6VxM8Pi3r4?si=VGEuQ1MhmIrdRixT" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/r6VxM8Pi3r4?si=C3TwkxMWO60vUlzf">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>En la selva me encontré</h2>
-                <iframe src="https://www.youtube.com/embed/qRWtH6ADPpE?si=5SEwK8ux8LMz2J25" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/qRWtH6ADPpE?si=dWHVidSBdikh76wV">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>Voy en busca de un león</h2>
-                <iframe src="https://www.youtube.com/embed/NWk5WVQ9UYM?si=4T-qY1_598GqZBQd" title="YouTube video player" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/NWk5WVQ9UYM?si=RgrSlX5qNxw7tYOB">Ver en YouTube</a>
+                </div>
             </div>
             <div class="container-danza">
                 <h2>El pistón</h2>
-                <iframe src="https://www.youtube.com/embed/2ogeDnOb3C4?si=Hreya-slkNOdEGkb" title="YouTube video player" allowfullscreen></iframe>
+                <p>
+                    Pistón, pistón, pistón, <br>
+                    hacer mover a la máquina. <br>
+                    Pistón, pistón, pistón, <br>
+                    hacer mover al vagón.
+                </p>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/2ogeDnOb3C4?si=-It9fTQbj-biH4By">Ver en YouTube</a>
+                </div>
             </div>
             <a class="boton-volver" href="#inicio">Inicio</a>
         </section>
@@ -1155,7 +1302,10 @@
         <section class="main-container__aplausos">
             <div class="container-aplauso">
                 <h2>Matemático</h2>
-                <iframe src="https://www.youtube.com/embed/TXTe8jWQe1s?si=bOIZT8nZLlA9Ay3Y" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                <div class="yt_container">
+                    <img class="icono-yt" src="./IMG/YTIcon.png" alt="Icono de YouTube">
+                    <a class="boton-yt" href="https://youtu.be/TXTe8jWQe1s?si=DmgFbkTrvJDgwO3u">Ver en YouTube</a>
+                </div>
             </div>
             <a class="boton-volver" href="#inicio">Inicio</a>
         </section>
@@ -1164,6 +1314,7 @@
         <span>Gracias a:</span>
         <span>Ge Cirou (Ntra. Sra. de la Unidad)</span>
         <p>¡SIEMPRE LISTOS!</p>
+        <a href="#" class="pdcc-open-modal">Panel Cookies</a>
     </footer>
 </body>
 </html>

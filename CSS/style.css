@@ -5,6 +5,7 @@
     --primaryColor: #622599;
     --secondaryColor: rgb(5, 182, 93);
     --tertiaryColor: ivory;
+    --buttonColor: #ff0000;
     --containerCancion: #ffffb1;
     --containerDanza: #89ff89;
     --containerAplauso: #bcdfeb; 
@@ -100,9 +101,30 @@ main h2 {
 .container-aplauso {
     background-color: var(--containerAplauso);
 }
+/* ICONOS Y BOTONES */
+.yt_container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    place-content: center;
+}
+.icono-yt {
+    margin: 1rem;
+    margin-right: 0;
+}
+.boton-yt {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--buttonColor);
+    color: var(--tertiaryColor);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1rem;
+}
 .boton-volver {
     margin: 1rem auto;
     padding: 1rem 2rem;
+    height: 6rem;
     font-size: 3rem;
     background-color: var(--primaryColor);
     color: var(--tertiaryColor);
